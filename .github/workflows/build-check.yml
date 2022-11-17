@@ -100,7 +100,7 @@ jobs:
           key: ${{ runner.os }}-qt-${{ matrix.config.qt_version }}
 
       - name: Install Qt
-        uses: jurplel/install-qt-action@v2
+        uses: jurplel/install-qt-action@v3
         with:
           arch: win64_msvc2019_64
           modules: qtwebengine
